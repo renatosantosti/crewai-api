@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# crewai-api
-A CrewAI API based on FastAPI and Swagger, those ones running on docker
-=======
 # CrewAI Agents Docker Image
 
 - [Motivation](#motivation)
@@ -145,4 +141,4 @@ Please report other issues you encounter on the [Issues](https://github.com/rena
 ## License
 
 This project is licensed under the [MIT License](https://github.com/renatosantosti/crewai-api-docker-image/blob/main/LICENSE.md).
->>>>>>> 8c65d0a (starting project)
+
