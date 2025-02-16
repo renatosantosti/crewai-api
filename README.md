@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# crewai-api
-A CrewAI API based on FastAPI and Swagger, those ones running on docker
-=======
 # CrewAI Agents Docker Image
 
 - [Motivation](#motivation)
@@ -18,14 +14,14 @@ A CrewAI API based on FastAPI and Swagger, those ones running on docker
 
 ## Motivation
 
-This Docker image provides a convenient & secure way to create and run CrewAI agents available by a clean api also available on Swagger.
+This Docker image provides a convenient & secure way to create and run CrewAI agents available by a clean api on Swagger.
 
 ## Prerequisites
 
 - Docker
-- Basic knowledge of python
-- Basic knowledge of crewAI and langchain
-- Ollama installed locally or access to remote AI services like chatGPT
+- Basic knowledge of Python
+- Basic knowledge of CrewAI
+- Also you can use Ollama installed locally or access to remote AI services instead of OpenAI API
 - Desire to learn and have fun
 
 ## Usage
@@ -36,12 +32,12 @@ docker build --build-arg CREWAI=0.98.0 --build-arg TOOLS=0.32.1 -t crewai-api-im
 
 1. Interative Mode:
 ```bash
-docker run -it --name agents-server-container agents-server-image bash
+docker run -it --name docker run -p 8181:8181 --name crewai-api-container crewai-api-image bash
 ```
 
 2. Non Interative mode: 
 ```bash
-docker run --name agents-server-container agents-server-image
+docker run -p 8181:8181 --name crewai-api-container crewai-api-image 
 ```
 #### Method 1: using a ollama
 
@@ -145,4 +141,3 @@ Please report other issues you encounter on the [Issues](https://github.com/rena
 ## License
 
 This project is licensed under the [MIT License](https://github.com/renatosantosti/crewai-api-docker-image/blob/main/LICENSE.md).
->>>>>>> 8c65d0a (starting project)

@@ -3,7 +3,7 @@ from mycrews.agents import crewaiPoetAgent, crewaiPhilosofyAgent
 
 # CrewAI Tasks
 crewaiCreatePoemTask = Task(
-  description =  "Create a poem based on theme: {theme}.",
+  description =  "Create a poem based on theme: {text}.",
   expected_output="a poem based on given theme",
   agent=crewaiPoetAgent
 )  

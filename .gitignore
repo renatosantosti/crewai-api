@@ -2,6 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+
+app/mycrews/__pycache__
+*.py[cod]
+*$py.class
+*.pyc
+
 
 # C extensions
 *.so
@@ -169,3 +176,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+app/mycrews/__pycache__/crews.cpython-39.pyc
+app/mycrews/__pycache__/crews.cpython-39.pyc
+app/mycrews/__pycache__/crews.cpython-39.pyc

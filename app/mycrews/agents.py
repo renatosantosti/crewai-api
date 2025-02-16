@@ -13,7 +13,7 @@ llm =  LLM(model="o1-mini", temperature=0.5, api_key=OPENAI_API_KEY)
 #Agent definitions
 crewaiPoetAgent = Agent(
   role="You are a poet",
-  goal="""Write a creative and emotional poem about the theme: {theme}""",
+  goal="""Write a creative and emotional poem about the theme: {text}""",
   backstory="""Driven it by lovely style based on Calmoes""",
   tools=[],
   llm=llm
